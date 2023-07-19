@@ -6,7 +6,7 @@
           apt:
               name: openjdk-8-jdk
               state: present 
-  when: ansible_os_family=="Debian"
+          when: ansible_os_family=="Debian"
 
 - name: java-1.8.0-openjdk8 on RedHat server
   yum: 
